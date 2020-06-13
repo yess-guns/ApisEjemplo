@@ -15,7 +15,7 @@ function cargarNombres(e) {
 
      const cantidad = document.getElementById('numero').value;
 
-     let url = `http://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=${ origenSeleccionado }&api_key=${apikey}&format=json`;
+     let url = `https://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=${ origenSeleccionado }&api_key=${apikey}&format=json`;
 
      // Conectar con ajax
      // Iniciar XMLHTTPRequest
